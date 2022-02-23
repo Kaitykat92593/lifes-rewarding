@@ -1,0 +1,111 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header" 
+    "main" 
+    "footer";
+}
+
+h1 {
+    color: black;
+    font-family: cursive;
+    background-image: url(image/beach.jpg);
+    background-size: cover;
+    background-position: 100%;
+    height: 150px;
+    margin: 0;
+    text-align: center;
+    padding-top: 175px;
+}
+
+.nav-bar a {
+    color: black;
+    font-size: x-large;
+    font-family: cursive;
+    padding-left: 50px;
+    margin: 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.main-section {
+    margin: 0;
+    background-color: beige;
+}
+
+
+form {
+    border: 4px solid beige;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container {
+    padding: 20px;
+    background-color: beige;
+    text-align: center;
+    font-family: cursive;
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: aqua;
+    color: black;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+.footer-container {
+    grid-area: footer;
+}
+
+.footer-design {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-buttons i {
+    /*background-color: white;
+    color: black;*/
+    margin-right: 5px;
+}
+
+.social-buttons {
+    display: flex;
+}
+
+.square {
+    color: black;
+}
+
+#insta-box {
+    margin-top: 2px;
+    color: white;
+    background-color: black;
+    width: 43px;
+    height: 43px;
+    border: 3px;
+  }
+    
+.insta {
+    color: #fff;
+    margin: 5px 0 0 7.5px;
+  }
