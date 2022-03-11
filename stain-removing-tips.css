@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .grid-container {
@@ -23,6 +23,89 @@ h1 {
     padding-top: 175px;
 }
 
+img{
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img1{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img2{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img3{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img4{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img5{
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.main-container {
+    text-align: center;
+    font-size: medium;
+    font-family: cursive;
+    overflow-wrap: break-word;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-areas:  
+    ". profile subscribe" ;
+}
+
+
+
+.recipe-name {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+    margin-top: 40px;
+}
+
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
 .nav-bar a {
     color: black;
     font-size: x-large;
@@ -41,35 +124,6 @@ h1 {
 .preview-container {
   display: flex;
   align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 100px;
-  margin-top: 50px;
-}
-
-.preview-container-2 {
-  display: flex;
-  align-items: center;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-
-h2 {
-  font-family: cursive;
-  margin-left: 30px;
-}
-
-p {
-  font-family: cursive;
-  margin-left: 30px;
-}
-
-.main-container {
-  display: grid;
-  grid-template-columns: 15% 70% 15%;
-  grid-template-areas:  
-  ". profile subscribe" ;
 }
 
 .main-section {
@@ -77,30 +131,6 @@ p {
     background-color: beige;
 }
 
-.h2-element {
-  text-align: center;
-  font-size: xx-large;
-  font-family: cursive;
-  margin-top: 30px;
-}
-
-img {
-  height: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-}
-
-.p-el {
-  text-align: center;
-  font-size: medium;
-  font-family: cursive;
-  overflow-wrap: break-word;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 50px;
-}
 
 .content {
   grid-area: profile;
@@ -141,6 +171,37 @@ form {
   
   input[type=submit]:hover {
     opacity: 0.8;
+  }
+
+  #respond {
+    margin-top: 0;
+  }
+
+
+  h3 {
+    font-family: cursive;
+    background-color: aqua;
+  }
+
+
+
+  
+  #respond input[type='text'],
+  #respond input[type='email'],
+  #respond textarea {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+  
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+  
+    line-height: 1.4em;
   }
 
   .footer-container {
