@@ -143,7 +143,9 @@ img{
     ". profile subscribe" ;
 }
 
-
+a {
+    font-weight: bold;
+}
 
 .recipe-name {
     font-size: xx-large;
