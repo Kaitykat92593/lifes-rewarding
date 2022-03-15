@@ -50,6 +50,19 @@ h1 {
     background-color: beige;
 }
 
+.content {
+    grid-area: profile;
+  }
+
+  img {
+    height: 400px;
+  }
+  
+  p {
+    font-family: cursive;
+    margin-left: 30px;
+  }
+
 .profile {
     height: 500px;
     display: block;
@@ -72,10 +85,6 @@ h1 {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 50px;
-}
-
-.content {
-    grid-area: profile;
 }
 
 form {
